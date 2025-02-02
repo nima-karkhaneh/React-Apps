@@ -1,0 +1,55 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+body{
+  background-color: #282D35;
+  color: white;
+}
+
+nav img{
+  width: 50px;
+}
+nav span{
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+header{
+  border: 2px solid black;
+  background-color: #21222A;
+  height: 90px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 20px 10px;
+  height: 100%;
+}
+main{
+  padding: 60px 30px;
+  background-image: url(react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h1{
+  font-size: 2.5rem;
+  max-width: 600px;
+}
+ul{
+  max-width: 400px;
+  margin-left: 40px;
+}
+li{
+  margin: 20px 0;
+  font-size: 1rem;
+  line-height: 19px;
+}
+li::marker{
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
